@@ -1,11 +1,5 @@
-n=int(input('Колличество чисел : '))
-p=0
-o=0
-no=0
-print('Вводите числа')
-for i in range(1,n+1) : 
-    ch=int(input())
-    if ch>0 : p+=1
-    elif ch==0 : no+=1
-    else : o+=1
-print('Колличество положительных : ',p,' Колличество отрицательных : ',o,' Колличество нулей : ',no,)
+n=int(input())
+p=1
+for i in range(1,n+1):
+    p=p*i
+print(p)
