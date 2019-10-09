@@ -1,4 +1,6 @@
 i=1
+s=0
 while i<100 :
-    print(i)
+    s+=i
     i+=2
+print(s)#Исправил
